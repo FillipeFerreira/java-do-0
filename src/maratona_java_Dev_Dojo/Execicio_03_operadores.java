@@ -35,6 +35,11 @@ public class Execicio_03_operadores {
         System.out.println("isDezDiferenteVinte = "+isDezDiferenteVinte);
 
 
+        System.out.println("----------------------------------------------------------------------------");
+
+        // && (and) || (or )
+
+
 
     }
 }
