@@ -10,7 +10,7 @@ public class comentario {
         System.out.println(
         "comentario ou nao ?!" +
         "comentarios  // em linha " + // em linha
-        "/* " +
+        "/* " + "comentario de mais linhas "+
         " /** doc ");
 
     }
