@@ -40,14 +40,10 @@ public class Execicio_01 {
                 System.out.println("Erro: O dia digitado é inválido (deve ser entre 1 e 31).");
             }
 
-        }
-
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Erro: Entrada inválida! Por favor, use apenas números para salário e data.");
             System.out.println("Tipo do erro: " + e.toString());
-        }
-
-        finally {
+        } finally {
             sc.close();
             System.out.println("\nSistema encerrado.");
         }
