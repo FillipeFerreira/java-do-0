@@ -18,6 +18,5 @@ public class tabela_verdade {
         // */
 
 
-
     }
 }

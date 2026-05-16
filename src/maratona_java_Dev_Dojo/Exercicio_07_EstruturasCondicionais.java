@@ -19,24 +19,25 @@ public class Exercicio_07_EstruturasCondicionais {
         int valorCompras = scanner.nextInt();
         System.out.println("Quanto tem de dinheiro ?");
 
-        int dinheiro =scanner.nextInt();
+        int dinheiro = scanner.nextInt();
 
         System.out.println("tem bebidas alcolicas, responda, true para sim, e false para nao ?!");
 
         boolean temBebida = scanner.next().equalsIgnoreCase("sim");
 
-        if ((idade >=18 )  && (valorCompras <= dinheiro  ))
+        if ((idade >= 18) && (valorCompras <= dinheiro))
             System.out.println("Opa pode levar as compras ");
-             else if (valorCompras <= dinheiro &&  temBebida ==false) {
-                 System.out.println("opa pode levar suas compras");}
-             else if (valorCompras > dinheiro) {
-                     System.out.println("seu dinheiro nao esta dando para as compras");}
-
-
+        else if (valorCompras <= dinheiro && temBebida == false) {
+            System.out.println("opa pode levar suas compras");
+        } else if (valorCompras > dinheiro) {
+            System.out.println("seu dinheiro nao esta dando para as compras");
         }
 
 
     }
+
+
+}
 
 
 
