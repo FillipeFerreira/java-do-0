@@ -1,8 +1,8 @@
-package introducao;
+package maratona_java_Dev_Dojo;
 
 import java.util.Scanner;
 
-public class switchcase {
+public class exercicio_switchcase {
     public static void main(String[] args) {
 
 
