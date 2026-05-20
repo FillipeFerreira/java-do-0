@@ -21,10 +21,15 @@ public class arrays03 {
 
 
         for (int i = 0; i < nomes.length; i++) {
-            for (int j = 0; j < 1; j++) {
+            for (int j = 0; j < nomes[i].length; j++) {
                 System.out.println(nomes[i][j]);
             }
 
+            System.out.println("--------------------------------------------------------------");
+                for (int [] o:nomes ){
+                    for (int j :o)
+                        System.out.println(j);
+                }
 
 
         }
