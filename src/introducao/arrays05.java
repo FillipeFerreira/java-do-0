@@ -14,15 +14,10 @@ public class arrays05 {
             System.out.println("-----");
             for (int j = 0; j < numeros[i].length; j++) {
                 System.out.println(j +"  ");
-
-
-
-                }
+            }
 
             }
         }
-
-
 
     }
 
