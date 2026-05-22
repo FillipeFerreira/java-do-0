@@ -2,9 +2,15 @@ package javaIntroducaoClasses;
 
 public class Pessoa {
 
-    String nome;
-    int idade;
-    char sexo;
-    String medicado;
-    boolean deficiencia;
+    public String nome;
+    public int idade;
+    public char sexo;
+    public String medicado;
+    public boolean deficiencia;
+
+
+
+
+
+
 }

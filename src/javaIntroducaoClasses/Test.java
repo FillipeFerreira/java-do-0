@@ -5,24 +5,24 @@ public class Test {
 
         Pessoa pessoa = new Pessoa();
 
+        System.out.println("--------------------------------------");
 
         pessoa.nome = "Fillipe";
         pessoa.idade = 25;
         pessoa.sexo = 'M';
         pessoa.medicado = " false";
-        pessoa.deficiencia = false;
-
-
-
+        pessoa.deficiencia = true;
 
         System.out.println("Nome: " + pessoa.nome);
         System.out.println("Idade: " + pessoa.idade);
         System.out.println("Sexo: " + pessoa.sexo);
         System.out.println("medicado " + pessoa.medicado);
-        System.out.println("Deficiencia ? " + pessoa.deficiencia);
+        System.out.println("Deficiencia  " + pessoa.deficiencia);
 
         System.out.println("--------------------------------------");
+
         Pessoa pessoa01 = new Pessoa();
+
         pessoa01.nome = "luiz";
         pessoa01.idade = 36;
         pessoa01.sexo = 'm';
@@ -33,7 +33,7 @@ public class Test {
         System.out.println("sexo " + pessoa01.sexo);
         System.out.println("idade " + pessoa01.idade);
         System.out.println("medicado  " + pessoa01.medicado);
-        System.out.println("Deficiencia ? " + pessoa01.deficiencia);
+        System.out.println("Deficiencia  " + pessoa01.deficiencia);
 
         System.out.println("--------------------------------------");
 
@@ -46,15 +46,34 @@ public class Test {
         pessoa02.deficiencia = false;
 
 
-
-
         System.out.println("nome " + pessoa02.nome);
         System.out.println("sexo " + pessoa02.sexo);
         System.out.println("nome " + pessoa02.idade);
         System.out.println("medicado " + pessoa02.medicado);
-        System.out.println("Deficiencia ? " + pessoa02.deficiencia);
+        System.out.println("Deficiencia  " + pessoa02.deficiencia);
 
         System.out.println("--------------------------------------");
+
+
+        bola bolinha = new bola ();
+
+
+
+
+        System.out.println(bolinha.nome);
+        System.out.println(bola.idade);
+
+
+
+
+        bola bolinha02 = new bola ();
+
+        System.out.println(bolinha02.nome);
+        System.out.println(bola.idade);
+
+
+
+
 
     }
 
