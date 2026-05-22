@@ -3,7 +3,8 @@ package javaIntroducaoClasses;
 public class Pessoa {
 
     String nome;
-    int idade ;
+    int idade;
     char sexo;
     String medicado;
+    boolean deficiencia;
 }
