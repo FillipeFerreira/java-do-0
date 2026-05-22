@@ -1,4 +1,6 @@
-package javaIntroducaoClasses;
+package javaIntroducaoClasses.Test;
+
+import javaIntroducaoClasses.Pessoa;
 
 public class Test {
     public static void main(String[] args) {
@@ -55,21 +57,7 @@ public class Test {
         System.out.println("--------------------------------------");
 
 
-        bola bolinha = new bola ();
 
-
-
-
-        System.out.println(bolinha.nome);
-        System.out.println(bola.idade);
-
-
-
-
-        bola bolinha02 = new bola ();
-
-        System.out.println(bolinha02.nome);
-        System.out.println(bola.idade);
 
 
 
