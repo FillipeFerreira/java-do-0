@@ -1,6 +1,6 @@
 package javaIntroducaoClasses;
 
-public class cordenadores {
+public class coordenadores {
 
 
         public  static String nome;

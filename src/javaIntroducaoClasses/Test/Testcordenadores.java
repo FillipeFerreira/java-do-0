@@ -1,47 +1,47 @@
 package javaIntroducaoClasses.Test;
 
-import javaIntroducaoClasses.cordenadores;
+import javaIntroducaoClasses.coordenadores;
 
 public class Testcordenadores {
 
     public static void main(String[] args) {
 
-        cordenadores cordenadores01 = new cordenadores();
+        coordenadores coordenadores01 = new coordenadores();
 
-        cordenadores01.idade = 21;
-        cordenadores01.nome = "Fillipe";
-        cordenadores01.area = "geral";
-        cordenadores01.tempo = "3meses";
-        cordenadores01.rg = 2321321;
-        cordenadores01.cpf = 321321;
+        coordenadores01.idade = 21;
+        coordenadores.nome = "Fillipe";
+        coordenadores01.area = "geral";
+        coordenadores01.tempo = "3meses";
+        coordenadores01.rg = 2321321;
+        coordenadores01.cpf = 321321;
 
         System.out.println("----------------------------");
-        System.out.println("idade " + cordenadores01.idade);
-        System.out.println("nome " + cordenadores01.nome);
-        System.out.println("area " + cordenadores01.area);
-        System.out.println("tempo " + cordenadores01.tempo);
-        System.out.println("rg " + cordenadores01.rg);
-        System.out.println("cpf " + cordenadores01.cpf);
+        System.out.println("idade " + coordenadores01.idade);
+        System.out.println("nome " + coordenadores01.nome);
+        System.out.println("area " + coordenadores01.area);
+        System.out.println("tempo " + coordenadores01.tempo);
+        System.out.println("rg " + coordenadores01.rg);
+        System.out.println("cpf " + coordenadores01.cpf);
         System.out.println("----------------------------");
 
 
-        cordenadores cordenadores02 = new cordenadores();
+        coordenadores coordenadores02 = new coordenadores();
 
-        cordenadores02.idade = 32;
-        cordenadores02.nome = "luana";
-        cordenadores02.area = "adm";
-        cordenadores02.tempo = "5meses";
-        cordenadores02.rg = 23213211;
-        cordenadores02.cpf = 321323211;
-       
+        coordenadores02.idade = 32;
+        coordenadores02.nome = "luana";
+        coordenadores02.area = "adm";
+        coordenadores02.tempo = "5meses";
+        coordenadores02.rg = 23213211;
+        coordenadores02.cpf = 321323211;
+
         System.out.println("----------------------------");
 
-        System.out.println("idade " + cordenadores02.idade);
-        System.out.println("nome " + cordenadores02.nome);
-        System.out.println("area " + cordenadores02.area);
-        System.out.println("tempo " + cordenadores02.tempo);
-        System.out.println("rg " + cordenadores02.rg);
-        System.out.println("cpf " + cordenadores02.cpf);
+        System.out.println("idade " + coordenadores02.idade);
+        System.out.println("nome " + coordenadores02.nome);
+        System.out.println("area " + coordenadores02.area);
+        System.out.println("tempo " + coordenadores02.tempo);
+        System.out.println("rg " + coordenadores02.rg);
+        System.out.println("cpf " + coordenadores02.cpf);
 
         System.out.println("----------------------------");
     }
