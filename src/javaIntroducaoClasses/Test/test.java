@@ -1,11 +1,11 @@
 package javaIntroducaoClasses.Test;
 
-import javaIntroducaoClasses.Pessoa;
+import javaIntroducaoClasses.pessoa;
 
-public class Test {
+public class test {
     public static void main(String[] args) {
 
-        Pessoa pessoa = new Pessoa();
+        pessoa pessoa = new pessoa();
 
         System.out.println("--------------------------------------");
 
@@ -27,7 +27,7 @@ public class Test {
 
         System.out.println("--------------------------------------");
 
-        Pessoa pessoa01 = new Pessoa();
+        pessoa pessoa01 = new pessoa();
 
         pessoa01.nome = "luiz";
         pessoa01.matricula = 545132184;
@@ -47,7 +47,7 @@ public class Test {
 
         System.out.println("--------------------------------------");
 
-        Pessoa pessoa02 = new Pessoa();
+        pessoa pessoa02 = new pessoa();
 
         pessoa02.nome = "ana";
         pessoa02.matricula = 545185884;

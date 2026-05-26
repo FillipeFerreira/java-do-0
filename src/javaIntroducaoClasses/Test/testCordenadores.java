@@ -2,7 +2,7 @@ package javaIntroducaoClasses.Test;
 
 import javaIntroducaoClasses.coordenadores;
 
-public class Testcordenadores {
+public class testCordenadores {
 
     public static void main(String[] args) {
 

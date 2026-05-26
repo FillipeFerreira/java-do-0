@@ -1,6 +1,6 @@
 package javaIntroducaoClasses;
 
-public class Pessoa {
+public class pessoa {
 
     public String nome;
     public int idade;

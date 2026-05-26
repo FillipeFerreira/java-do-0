@@ -1,6 +1,6 @@
 package javaIntroducaoClasses;
 
-public class Professor {
+public class professor {
 
 
     public int idade;
