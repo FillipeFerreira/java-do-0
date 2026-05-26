@@ -15,10 +15,10 @@ public class calculadora {
 
     }
 
-    public void MultiplicarDoisNumeros(){
+    public void MultiplicarDoisNumeros(int num, int num2, int num3){
 
+        System.out.println(num * num2 *num3);
 
-        System.out.println(2*2);
 
     }
 }
