@@ -19,9 +19,15 @@ public class estudantetest01 {
             pessoas01.idade = 36;
             pessoas01.sexo = 'm';
 
+            pessoa pessoas02 = new pessoa ();
+            pessoas02.nome = "maria";
+            pessoas02.idade = 36;
+            pessoas02.sexo = 'f';
+
 
              empressorapessoas.imprima(pessoas);
              empressorapessoas.imprima(pessoas01);
+             empressorapessoas.imprima(pessoas02);
 
 
 
