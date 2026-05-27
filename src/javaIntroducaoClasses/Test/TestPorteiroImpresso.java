@@ -12,7 +12,17 @@ public class TestPorteiroImpresso {
         porteiro05.cpf = 21312321;
         porteiro05.portaria = "principal";
 
+
+
+        porteiro porteiro06 = new porteiro();
+        porteiro06.nome = "lucas";
+        porteiro06.rg = 321321321;
+        porteiro06.cpf = 2131233311;
+        porteiro06.portaria = "Portaria- Lateral";
+
+
         empressoraPorteiro.imprimaa(porteiro05);
+        empressoraPorteiro.imprimaa(porteiro06);
 
     }
 }
