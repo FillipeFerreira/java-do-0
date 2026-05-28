@@ -10,6 +10,7 @@ public class empressorapessoas {
         System.out.println(pessoa.nome);
         System.out.println(pessoa.idade);
         System.out.println(pessoa.sexo);
+        System.out.println(pessoa.cpf);
         System.out.println("------------------------------");
 
 
