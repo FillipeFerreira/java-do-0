@@ -27,8 +27,18 @@ public class testcalculadora {
         calculadora.MultiplicarDoisNumeros(num,num2,num3);
 
 
+        calculadora calculadora2 = new calculadora();
 
-        }
+        int [] numeros = {1,2,3,4};
+
+        calculadora2.somaArray(numeros);
+
+        calculadora2.somaVarArgs(1,2);
+
+
+
+
+    }
 
 
 
