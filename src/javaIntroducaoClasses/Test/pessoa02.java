@@ -19,12 +19,19 @@ public class pessoa02 {
         pessoas03.cpf = 323213;
         pessoas03.sexo = 'm';
 
-       empressoraPessoas2.imprimir02(pessoas02);
-       empressoraPessoas2.imprimir02(pessoas03);
 
 
 
 
     }
-
 }
+
+
+
+
+
+
+
+
+
+

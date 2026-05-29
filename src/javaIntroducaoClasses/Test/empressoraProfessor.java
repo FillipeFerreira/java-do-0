@@ -12,5 +12,7 @@ public class empressoraProfessor {
         System.out.println(professor.sexo);
         System.out.println(professor.tempo);
 
+
+
     }
 }
