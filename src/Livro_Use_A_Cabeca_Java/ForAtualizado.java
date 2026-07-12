@@ -6,11 +6,12 @@ public class ForAtualizado {
 
     public static void main(String[] args) {
 
-        int [] numeros = {1,2,3,4,5,6};
+        String [] nomes = {"fillipe", "luiz", "ana flavia"};
 
-        for ( int Osnomes : numeros ) {
+        for ( String nomes2 : nomes ) {
 
-            System.out.println(Osnomes);
+          int nomes3 = Integer.parseInt(nomes2);
+            System.out.println(nomes3);
         }
 
     }
