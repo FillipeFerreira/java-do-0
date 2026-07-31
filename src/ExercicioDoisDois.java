@@ -20,7 +20,17 @@ public class ExercicioDoisDois {
         System.out.println(contador[1]);
         System.out.println(contador[2]);
 
+        System.out.println();
+        for (int i = 0; i < contador.length; i++) {
+            System.out.println(contador[i]);
+        }
+        System.out.println();
+        for (int numero :contador){
+            System.out.println(numero);
+        }
+
+        }
     }
 
-}
+
 
